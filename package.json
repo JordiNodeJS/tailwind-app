@@ -2,12 +2,15 @@
   "name": "tailwind-app",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://jordinodejs.github.io/tailwind-app/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
